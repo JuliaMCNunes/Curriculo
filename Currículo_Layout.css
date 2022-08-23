@@ -1,0 +1,23 @@
+.Profissional{
+    background-color: #F6F4E8;}
+
+H2.Profissional{
+    color: #000000;
+    font-family: Open Sans;
+    font-size: 28px;}
+
+H4.Profissional{
+    color: #000000;
+    font-family: Open Sans Light;
+    font-size: 14px;}
+
+p.Profissional{
+    color: #000000;
+    font-family: Open Sans Light;
+    font-size: 12px;}
+
+progress::-webkit-progress-value{
+     background: #0184A5;}
+
+#Uni{
+    color: #0184A5;}
