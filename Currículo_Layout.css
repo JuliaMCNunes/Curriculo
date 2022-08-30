@@ -1,23 +1,97 @@
-.Profissional{
-    background-color: #F6F4E8;}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
 
-H2.Profissional{
+body{
+   background: #EFEDED;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   min-height: 100vh;}
+
+.conteiner{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #0F9FC4;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35pc 55pc rgba(0, 0, 0, 0.1);}
+
+.conteiner .Pessoal{
+    position: relative;
+    background: #15086B;
+    padding: 28px;}
+
+.eu{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    color: #F1F1F1;
+    font-family: "Open", sans-serif;
+    font-size: 15px;}
+
+.eu span{
+    font-size: 9.8px;}
+
+.conteiner-2{
+    display: flex;
+    flex-direction: row;
+
+
+}
+
+
+.Pessoal H5{
+    color: #F1F1F1;
+    font-family: Open Sans Light;
+    font-size: 11px;}
+
+.Pessoal H2{
+    color: #F1F1F1;
+    font-family: Open Sans;
+    font-size: 28px;}
+
+.Pessoal p{
+    color: #F1F1F1;
+    font-family: Open Sans Light;
+    font-size: 12px;}
+    
+.Pessoal li{
+    list-style-type: unset;
+    color: #F1F1F1;
+    font-family: Open Sans Light;
+    font-size: 15px;}
+
+.Pessoal li:before{
+    color: #0184A5;}
+
+.conteiner .Profissional{
+    position: relative;
+    background: #F6F4E8;
+    padding: 40px;}
+
+.Profissional H2{
     color: #000000;
     font-family: Open Sans;
     font-size: 28px;}
 
-H4.Profissional{
+.Profissional H4{
     color: #000000;
     font-family: Open Sans Light;
     font-size: 14px;}
 
-p.Profissional{
+.Profissional p{
     color: #000000;
     font-family: Open Sans Light;
     font-size: 12px;}
 
-progress::-webkit-progress-value{
-     background: #0184A5;}
-
 #Uni{
     color: #0184A5;}
+
+
